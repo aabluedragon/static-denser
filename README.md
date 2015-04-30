@@ -49,5 +49,5 @@ Create an "index.html" file that will serve as a "redirector" page, the sole pur
 is to determine the `window.devicePixelRatio` value and redirect to the corresponding url (e.g main.html), attaching this value as part of the url path.
 See a working example of this flow in the demo below.
 
-##### Demo
+##### A full working example
 [static-denser-demo](https://github.com/aabluedragon/static-denser-demo)
