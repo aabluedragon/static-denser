@@ -28,7 +28,9 @@ If it's not there it will open "/myapp/main.jpg" (In the file system: /public/ma
 "Normal" URLs without the DPR param will also work: /myapp/main.jpg (that will always serve main.jpg).
 
 ##### Syntax & Optional Parameters:
+```javascript
 staticDenser("public", {dpiPrefix:"@", dpiSuffix:"x"});
+```
 The "@" prefix and "x" suffix are the default, no need to pass them, however you can use your own values.
 The "public" is the recommended file system path to put your resources.
 
