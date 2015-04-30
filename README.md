@@ -1,6 +1,6 @@
 # static-denser
 
-An express middleware for serving pixel density named files, meant to work with the express static middleware.
+A [Node](https://nodejs.org) Express middleware for serving pixel density named files, meant to work with the express static middleware.
 
 `npm install static-denser`
 
