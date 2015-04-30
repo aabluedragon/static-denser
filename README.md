@@ -48,4 +48,4 @@ is to determine the `window.devicePixelRatio` value and redirect to the correspo
 you can see this flow in the full working example below.
 
 ##### A full working example
-(coming...)
+[static-denser-demo](https://github.com/aabluedragon/static-denser-demo)
