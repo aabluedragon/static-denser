@@ -2,6 +2,8 @@
 
 An express middleware for serving pixel density named files, meant to work with the express static middleware.
 
+`npm install static-denser`
+
 Adding this middleware will add the following logic for file serving:
 
 1. file.jpg is requested by device with DPR (window.devicePixelRatio) of 2 (by some html file, directly, or by appcache).
