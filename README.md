@@ -15,7 +15,7 @@ e.g if you attach it to /myfiles, the middleware will take it from /myfiles/:dpr
 no need to type the ":dpr" param, just attach normally by calling "use(...)".
 
 ```javascript
-var staticDenser = require('./static_denser/static-denser');
+var staticDenser = require('/static-denser');
 var assetsFolderDir = "public";
 app.use("/myapp", staticDenser(assetsFolderDir), express.static(assetsFolderDir,{}));
 ```
@@ -25,6 +25,11 @@ will actually try to open the url "/myapp/main@2x.jpg" (In the file system: /pub
 If it's not there it will open "/myapp/main.jpg" (In the file system: /public/main.jpg).
 
 "Normal" URLs without the DPR param will also work: /myapp/main.jpg (that will always serve main.jpg).
+
+##### Optional parameters:
+staticDenser("public", {dpiPrefix:"@", dpiSuffix:"x"});
+The "@" prefix and "x" suffix are the default, no need to pass them, however you can use your own values.
+The "public" is the recommended file system path to put your resources.
 
 ##### Why use this middleware and not media queries?
 Because we want to use appcache, and not cache all pixel density files for our client,
