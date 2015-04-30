@@ -34,7 +34,7 @@ If it's not there it will open "/myapp/main.jpg" (In the file system: /public/ma
 staticDenser("public", {dpiPrefix:"@", dpiSuffix:"x"});
 ```
 The "@" prefix and "x" suffix are the default, no need to pass them, however you can use your own values.
-The "public" is the recommended file system path to put your resources.
+The "public" is the recommended sub folder system path to put your resources in.
 
 ##### Why use this middleware and not media queries?
 Because we want to use appcache, and not cache all pixel density files for our client,
