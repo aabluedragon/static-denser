@@ -7,8 +7,8 @@ A [Node](https://nodejs.org) Express middleware for serving pixel density named 
 Adding this middleware will add the following logic for file serving:
 
 1. file.jpg is requested by some html file running on a device with DPR (window.devicePixelRatio) of 2 for example (requested by AppCache, html img tag or anything else).
-2. The module reads the "2" DPR value from the URL (see how in the example below).
-3. The module will serve file@2x.jpg if it exists, or file.jpg if it does not.
+2. The middleware reads the "2" DPR value from the URL (see how in the example below).
+3. The middleware will ask the express.static middleware to serve file@2x.jpg if it exists, or file.jpg if it does not.
 
 By the way, it works with all types of files, not only images!
 
