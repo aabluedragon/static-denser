@@ -10,7 +10,7 @@ Adding this middleware will add the following logic for file serving:
 
 By the way, it works with all types of files, not only images!
 
-##### How does it know the DPR value?
+##### How does it receive the DPR value?
 The middlewhere takes the DPR param one path after the attached url,
 e.g if you attach it to /myfiles, the middleware will take it from /myfiles/:dpr.
 no need to type the ":dpr" param, just attach normally by calling "use(...)".
