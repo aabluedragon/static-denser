@@ -39,7 +39,7 @@ Because we want to use appcache, and not cache all pixel density files for our c
 If we connect using a device with a DPR of 1, we don't want to cache the @2x images as well, we want to save space.
 See appcache limitations: http://www.html5rocks.com/en/tutorials/offline/quota-research/
 
-##### Why not cookies?
+##### Why create virtual URL paths and not use cookies?
 Cordova does not support cookies.
 
 ##### Recommended flow for SPA web apps
