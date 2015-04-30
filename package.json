@@ -1,0 +1,35 @@
+{
+  "name": "static-denser",
+  "version": "1.0.0",
+  "description": "An express middleware for serving density dependent images (or other files), supports the appcache flow.",
+  "main": "static-denser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aabluedragon/static-denser.git"
+  },
+  "keywords": [
+    "dpi",
+    "dpr",
+    "ppi",
+    "pixel",
+    "density",
+    "appcache",
+    "html",
+    "html5",
+    "devicePixelRatio",
+    "ratio",
+    "static",
+    "denser",
+    "dense",
+    "static-denser"
+  ],
+  "author": "Alon Amir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aabluedragon/static-denser/issues"
+  },
+  "homepage": "https://github.com/aabluedragon/static-denser"
+}
