@@ -42,7 +42,7 @@ See appcache limitations: http://www.html5rocks.com/en/tutorials/offline/quota-r
 ##### Why not cookies?
 Cordova does not support cookies.
 
-##### Recommended flow to for SPA web apps
+##### Recommended flow for SPA web apps
 Create an "index.html" file that will serve as the "redirector", the sole purpose for this html file
 is to determine the `window.devicePixelRatio` value and redirect to the corresponding url (e.g main.html), attaching this value.
 you can see this flow in the full working example below.
