@@ -18,7 +18,7 @@ e.g if you attach it to /myfiles, the middleware will take it from /myfiles/:dpr
 no need to type the ":dpr" param, just attach normally by calling `.use(...)`.
 
 ```javascript
-var staticDenser = require('/static-denser');
+var staticDenser = require('static-denser');
 var assetsFolderDir = "public";
 app.use("/myapp", staticDenser(assetsFolderDir), express.static(assetsFolderDir,{}));
 ```
