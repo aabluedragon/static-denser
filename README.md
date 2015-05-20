@@ -10,7 +10,7 @@ A [Node](https://nodejs.org) [Express](http://expressjs.com/) middleware for ser
 Adding this middleware will add the following logic for file serving:
 
 1. file.jpg is requested by some html file running on a device with DPR (window.devicePixelRatio) of 2 for example (requested by AppCache, html img tag or anything else).
-2. The middleware reads the "2" DPR value from the URL (see how in the example below).
+2. The middleware reads the "2" DPR value from the URL (see how in the example project).
 3. The middleware will ask the express.static middleware to serve file@2x.jpg if it exists, or file.jpg if it does not.
 
 By the way, it works with all types of files, not only images!
@@ -50,4 +50,4 @@ Cordova does not support cookies.
 ##### Recommended flow for SPA web apps
 Create an "index.html" file that will serve as a "redirector" page, the sole purpose of this html file
 is to determine the `window.devicePixelRatio` value and redirect to the corresponding url (e.g main.html), attaching this value as part of the url path.
-See a working example of this flow in the example project.
+See a working example of this flow in the demo project.
