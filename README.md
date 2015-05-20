@@ -2,6 +2,9 @@
 
 A [Node](https://nodejs.org) [Express](http://expressjs.com/) middleware for serving pixel density named files, meant to work with the express static middleware.
 
+##### A full working example
+[static-denser-demo](https://github.com/aabluedragon/static-denser-demo)
+
 `npm install static-denser`
 
 Adding this middleware will add the following logic for file serving:
@@ -47,7 +50,4 @@ Cordova does not support cookies.
 ##### Recommended flow for SPA web apps
 Create an "index.html" file that will serve as a "redirector" page, the sole purpose of this html file
 is to determine the `window.devicePixelRatio` value and redirect to the corresponding url (e.g main.html), attaching this value as part of the url path.
-See a working example of this flow in the demo below.
-
-##### A full working example
-[static-denser-demo](https://github.com/aabluedragon/static-denser-demo)
+See a working example of this flow in the example project.
