@@ -5,6 +5,7 @@ A [Node](https://nodejs.org) [Express](http://expressjs.com/) middleware for ser
 ##### A full working example
 [static-denser-demo](https://github.com/aabluedragon/static-denser-demo)
 
+--
 `npm install static-denser`
 
 Adding this middleware will add the following logic for file serving:
